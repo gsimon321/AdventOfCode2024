@@ -1,0 +1,78 @@
+# Byte-compiled and optimized files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment and dependencies
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cache files and directories
+*.cache
+.cache/
+*.pytest_cache/
+pytest_cache/
+
+# Logs and debugging
+*.log
+logs/
+*.out
+*.err
+
+# Environment variables
+.env
+.env.*
+.envrc
+*.env.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# mypy and type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage files
+.coverage
+*.cover
+*.coverage.*
+htmlcov/
+
+# PyInstaller
+*.spec
+
+# tox
+.tox/
+
+# Documentation and Sphinx
+docs/_build/
+*.rst~
+
+# Testing artifacts
+*.mo
+*.pot
+*.log
+test-results/
+
+# MacOS-specific
+.DS_Store
+
+# Editor configuration
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# PEP 582 (used by some tools like `pythonloc`)
+__pypackages__/
